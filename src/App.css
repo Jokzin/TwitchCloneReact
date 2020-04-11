@@ -1,3 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f1f1f1;
+  font-family: sans-serif;
+}
+
 .App {
   text-align: center;
+}
+
+/*
+  ////////////
+  Header
+  ///////////
+*/
+
+.headerTop {
+  background: #6441a4;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.listMenu {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.liensNav {
+  list-style-type: none;
+  padding: 0 20px;
+}
+
+.liensNav:nth-child(4) {
+  margin: 0 auto;
+  flex-shrink: 1;
+  width: 600px;
+}
+
+.logo {
+  margin-top: 5px;
+}
+
+.formSubmit {
+  display: flex;
+  flex-shrink: 1;
+}
+
+.logoLoupe {
+  width: 20px;
+}
+
+.inputRecherche {
+  width: 50%;
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.liensNav button {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 4px 20px;
+  border: none;
+  background-color: #f1f1f1;
+}
+
+.menuResBtn {
+  display: none;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.menuIco {
+  width: 25px;
 }

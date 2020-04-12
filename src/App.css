@@ -87,3 +87,29 @@ body {
 .menuIco {
   width: 25px;
 }
+
+/*
+  ////////////
+  SideBar
+  ///////////
+*/
+
+.sidebar {
+  position: fixed;
+  top: 50px;
+  width: 239px;
+  background: #19171c;
+  height: 100vh;
+}
+
+.titreSidebar {
+  padding: 30px 0 20px 0;
+  color: #efebf5;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.listeStream {
+  padding: 0 0 0 10px;
+  color: #efebf5;
+}

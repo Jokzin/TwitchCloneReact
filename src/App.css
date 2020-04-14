@@ -113,3 +113,82 @@ body {
   padding: 0 0 0 10px;
   color: #efebf5;
 }
+
+/*
+  ////////////
+  Games
+  ///////////
+*/
+
+.titreGames {
+  padding-top: 90px;
+  font-style: 50px;
+  font-weight: 300;
+  padding-left: 260px;
+  padding-bottom: 50px;
+}
+
+.flexAccueil {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 260px;
+}
+
+.carteGames {
+  height: 480px;
+  width: 280px;
+  margin: 0 30px 30px 0;
+  position: relative;
+  transition: all 0.4s;
+  border-radius: 10px;
+  box-shadow: 2px 11px 36px -16px rgba(0,0,0,0.75);
+}
+
+.carteGames:hover {
+  transform: translateY(-5px);
+}
+
+.imgCarte {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.cardBodyGames {
+  height: 144px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.btnCarte {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #212529;
+  font-size: 14px;
+  line-height: 1.125;
+  border-radius: 5px;
+  padding: 2px 5px;
+  cursor: pointer;
+}
+
+.btnCarte:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.titreCartesGames {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 80%;
+  overflow: hidden;
+  font-weight: 500;
+  font-size: 18px;
+}
+

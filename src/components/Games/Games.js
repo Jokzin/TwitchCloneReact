@@ -3,11 +3,12 @@ import api from '../../api';
 
 function Games(){
 
+    const apiURL = process.env.REACT_APP_API_URL;
     const [games,setGames] = useState([])
 
     useEffect(() => {
         const fetchData = async () => {
-            const result = await api.get('https://api.twitch.tv/helix/games/top')
+            const result = await api.get(apiURL + '/games/top')
 
             let dataArray = result.data.data;
             let finalArray = dataArray.map(game => {

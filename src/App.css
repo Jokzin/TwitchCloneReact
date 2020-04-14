@@ -114,6 +114,12 @@ body {
   color: #efebf5;
 }
 
+@media screen and (max-width: 1200px) {
+  .sidebar {
+    display: none;
+  }
+}
+
 /*
   ////////////
   Games
@@ -192,3 +198,28 @@ body {
   font-size: 18px;
 }
 
+@media screen and (max-width: 1200px) {
+  .titreGames {
+    padding-left: 0px;
+  }
+
+  .flexAccueil {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .titreGames {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 559px) {
+  .carteGames {
+    margin: 0 0 30px 0;
+  }
+
+  .flexAccueil {
+    padding-left: 0px;
+  }
+}

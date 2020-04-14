@@ -1,3 +1,7 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/764f053e-8fb6-4a71-b348-e7b593add17e/deploy-status)](https://app.netlify.com/sites/zen-rosalind-984cd4/deploys)
+
+# Twitch Clone with React
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

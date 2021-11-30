@@ -24,7 +24,7 @@ function Games(){
         }
 
         fetchData();
-    }, [])
+    })
 
     return (
         <div>

@@ -44,7 +44,25 @@ function Sidebar(){
             let gamesNamesArray = gamesNames.data.data;
             let arrayUsers = getUsers.data.data;
 
+            //Création tableau final
+            let finalArray = dataArray.map(stream => {
+                stream.gameName = "";
+                stream.truePic = "";
+                stream.login = "";
 
+                gamesNamesArray.forEach(name => {
+                    arrayUsers.forEach(user => {
+                        if(stream.user_id === user.id && stream.game_id === name.id) {
+                            stream.gameName = name.name;
+                            stream.truePic = user.profile_image_url;
+                            stream.login = user.login;
+                        }
+                    })
+                })
+
+                return stream;
+            })
+            setTopStreams(finalArray.slice(0,6));
         }
 
         fecthData();

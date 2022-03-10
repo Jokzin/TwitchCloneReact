@@ -1,15 +1,15 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  background: #f1f1f1;
-  font-family: sans-serif;
+    background: #f1f1f1;
+    font-family: sans-serif;
 }
 
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 /*
@@ -19,73 +19,73 @@ body {
 */
 
 .headerTop {
-  background: #6441a4;
-  height: 50px;
-  position: fixed;
-  width: 100%;
-  z-index: 1000;
+    background: #6441a4;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 .listMenu {
-  height: 50px;
-  display: flex;
-  align-items: center;
-  width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 
 .liensNav {
-  list-style-type: none;
-  padding: 0 20px;
+    list-style-type: none;
+    padding: 0 20px;
 }
 
 .liensNav:nth-child(4) {
-  margin: 0 auto;
-  flex-shrink: 1;
-  width: 600px;
+    margin: 0 auto;
+    flex-shrink: 1;
+    width: 600px;
 }
 
 .logo {
-  margin-top: 5px;
+    margin-top: 5px;
 }
 
 .formSubmit {
-  display: flex;
-  flex-shrink: 1;
+    display: flex;
+    flex-shrink: 1;
 }
 
 .logoLoupe {
-  width: 20px;
+    width: 20px;
 }
 
 .inputRecherche {
-  width: 50%;
-  background-color: #fff;
-  border: 2px solid #fff;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+    width: 50%;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .liensNav button {
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  padding: 4px 20px;
-  border: none;
-  background-color: #f1f1f1;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 4px 20px;
+    border: none;
+    background-color: #f1f1f1;
 }
 
 .menuResBtn {
-  display: none;
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  color: #fff;
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
 }
 
 .menuIco {
-  width: 25px;
+    width: 25px;
 }
 
 /*
@@ -95,81 +95,81 @@ body {
 */
 
 .sidebar {
-  position: fixed;
-  top: 50px;
-  width: 239px;
-  background: #19171c;
-  height: 100vh;
+    position: fixed;
+    top: 50px;
+    width: 239px;
+    background: #19171c;
+    height: 100vh;
 }
 
 .titreSidebar {
-  padding: 30px 0 20px 0;
-  color: #efebf5;
-  font-size: 15px;
-  font-weight: 500;
+    padding: 30px 0 20px 0;
+    color: #efebf5;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .listeStream {
-  padding: 0 0 0 10px;
-  color: #efebf5;
+    padding: 0 0 0 10px;
+    color: #efebf5;
 }
 
 .containerFlexSidebar {
-  padding: 10px 15px 8px 5px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  text-decoration: none;
-  list-style: none;
-  cursor: pointer;
+    padding: 10px 15px 8px 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
 }
 
 .containerFlexSidebar:hover {
-  background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.2);
 }
 
 .profilePicRonde {
-  width: 30px;
-  border-radius: 50%;
-  margin-right: 5px;;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
 }
 
 .streamUser {
-  color: #f1f1f1;
-  flex-basis: 50%;
-  overflow: hidden;
-  text-align: left;
+    color: #f1f1f1;
+    flex-basis: 50%;
+    overflow: hidden;
+    text-align: left;
 }
 
 .gameNameSidebar {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  color: #aeabb6;
-  text-align: left;
-  margin-top: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #aeabb6;
+    text-align: left;
+    margin-top: 5px;
 }
 
 .viewerRight {
-  color: #aeabb6;
-  flex-basis: 30%;
-  display: flex;
-  justify-content: flex-end;
+    color: #aeabb6;
+    flex-basis: 30%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .pointRouge {
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  margin-top: 6px;
-  margin-right: 3px;
-  background: crimson;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-top: 6px;
+    margin-right: 3px;
+    background: crimson;
 }
 
 @media screen and (max-width: 1200px) {
-  .sidebar {
-    display: none;
-  }
+    .sidebar {
+        display: none;
+    }
 }
 
 /*
@@ -179,99 +179,155 @@ body {
 */
 
 .titreGames {
-  padding-top: 90px;
-  font-style: 50px;
-  font-weight: 300;
-  padding-left: 260px;
-  padding-bottom: 50px;
+    padding-top: 90px;
+    font-style: 50px;
+    font-weight: 300;
+    padding-left: 260px;
+    padding-bottom: 50px;
 }
 
 .flexAccueil {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-left: 260px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 260px;
 }
 
 .carteGames {
-  height: 480px;
-  width: 280px;
-  margin: 0 30px 30px 0;
-  position: relative;
-  transition: all 0.4s;
-  border-radius: 10px;
-  box-shadow: 2px 11px 36px -16px rgba(0,0,0,0.75);
+    height: 390px;
+    width: 200px;
+    margin: 0 30px 30px 0;
+    position: relative;
+    transition: all 0.4s;
+    border-radius: 10px;
+    box-shadow: 2px 11px 36px -16px rgba(0, 0, 0, 0.75);
 }
 
 .carteGames:hover {
-  transform: translateY(-5px);
+    transform: translateY(-5px);
 }
 
 .imgCarte {
-  width: 100%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .cardBodyGames {
-  height: 144px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-evenly;
+    height: 144px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .btnCarte {
-  height: 50px;
-  width: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  background-color: #212529;
-  font-size: 14px;
-  line-height: 1.125;
-  border-radius: 5px;
-  padding: 2px 5px;
-  cursor: pointer;
+    height: 50px;
+    width: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #212529;
+    font-size: 14px;
+    line-height: 1.125;
+    border-radius: 5px;
+    padding: 2px 5px;
+    cursor: pointer;
 }
 
 .btnCarte:hover {
-  text-decoration: none;
-  color: #fff;
+    text-decoration: none;
+    color: #fff;
 }
 
 .titreCartesGames {
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  width: 80%;
-  overflow: hidden;
-  font-weight: 500;
-  font-size: 18px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 80%;
+    overflow: hidden;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 @media screen and (max-width: 1200px) {
-  .titreGames {
-    padding-left: 0px;
-  }
+    .titreGames {
+        padding-left: 0px;
+    }
 
-  .flexAccueil {
-    padding-left: 30px;
-  }
+    .flexAccueil {
+        padding-left: 30px;
+    }
 }
 
 @media screen and (max-width: 600px) {
-  .titreGames {
-    font-size: 40px;
-  }
+    .titreGames {
+        font-size: 40px;
+    }
 }
 
 @media screen and (max-width: 559px) {
-  .carteGames {
-    margin: 0 0 30px 0;
-  }
+    .carteGames {
+        margin: 0 0 30px 0;
+    }
 
-  .flexAccueil {
-    padding-left: 0px;
-  }
+    .flexAccueil {
+        padding-left: 0px;
+    }
+}
+
+/*
+  ////////////
+  TopStreams
+  ///////////
+*/
+
+.carteStream {
+    height: 330px;
+    width: 200px;
+    margin: 0 30px 30px 0;
+    position: relative;
+    transition: all 0.4s;
+    border-radius: 10px;
+    box-shadow: 2px 11px 36px -16px rgba(0, 0, 0, 0.75);
+}
+
+.carteStream:hover {
+    transform: translateY(-5px);
+}
+
+.titreCartesStream {
+    font-size: 21px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 80%;
+    font-weight: 500;
+}
+
+.cardBodyStream {
+    height: 144px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.txtStream {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500px;
+    font-size: 18px;
+}
+
+.viewers {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 559px) {
+    .carteStream {
+        margin: 0 0 30px 0;
+    }
 }

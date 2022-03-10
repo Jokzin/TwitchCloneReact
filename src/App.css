@@ -44,6 +44,17 @@ body {
     width: 600px;
 }
 
+.lien {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.lien:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
 .logo {
     margin-top: 5px;
 }
@@ -318,7 +329,7 @@ body {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 18px;
 }
 

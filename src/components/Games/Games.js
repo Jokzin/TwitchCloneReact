@@ -22,7 +22,7 @@ function Games() {
         }
 
         fetchData()
-    })
+    }, [apiURL])
 
     return (
         <div>

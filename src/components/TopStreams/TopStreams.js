@@ -72,7 +72,7 @@ function TopStreams() {
         }
 
         fecthData()
-    })
+    }, [apiURL])
 
     return (
         <div>

@@ -68,7 +68,7 @@ function Sidebar() {
         }
 
         fecthData()
-    })
+    }, [apiURL])
 
     return (
         <div className="sidebar">
